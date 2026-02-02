@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Darpan Porwal - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            color: #2c3e50;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        .contact-info {
+            margin-top: 10px;
+        }
+
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        h2 {
+            color: #2c3e50;
+            border-left: 5px solid #3498db;
+            padding-left: 10px;
+            margin-top: 40px;
+        }
+
+        .job-title,
+        .project-title {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        .meta {
+            color: #777;
+            font-size: 0.9em;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        ul {
+            margin-top: 5px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .skill-category b {
+            display: block;
+            margin-bottom: 5px;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Darpan Porwal</h1>
+            <div class="subtitle">Computer Science Undergraduate | IET DAVV</div>
+            <div class="contact-info">
+                Indore, MP | +91 83490-39113 | darpanp2308@gmail.com<br>
+                <a href="https://linkedin.com/in/darpan-porwal">LinkedIn</a> |
+                <a href="https://github.com/darpanp-gh">GitHub</a>
+            </div>
+        </header>
+
+        <section>
+            <h2>Education</h2>
+            <div class="job-title">Institute of Engineering & Technology, DAVV</div>
+            <span class="meta">Bachelor of Engineering in Computer Science | Aug 2023 - Present | CGPA: 9.22/10</span>
+
+            <br>
+
+            <div class="job-title">The Aditya Birla Public School</div>
+            <span class="meta">Nagda, MP | 2021 - 2023</span>
+            <ul>
+                <li><b>Class XII (CBSE):</b> 96.8%</li>
+                <li><b>Class X (CBSE):</b> 94.6%</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <b>Languages</b>
+                    C++, Java, Python, JavaScript, SQL
+                </div>
+                <div class="skill-category">
+                    <b>Frameworks</b>
+                    Next.js, React, Node.js, FastAPI, Tailwind CSS
+                </div>
+                <div class="skill-category">
+                    <b>Databases</b>
+                    PostgreSQL, MongoDB
+                </div>
+                <div class="skill-category">
+                    <b>Tools & Cloud</b>
+                    AWS S3, Docker, Git, GitHub, Linux
+                </div>
+                <div class="skill-category">
+                    <b>Libraries</b>
+                    Scikit-Learn, Pandas, NumPy, WhisperX, OpenCV
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+
+            <div class="project-title">ClipCast AI - SaaS Podcast Highlight Generator</div>
+            <span class="meta">Jun 2025 - Oct 2025 | Next.js, Python, AWS</span>
+            <ul>
+                <li>Built an AI-powered SaaS platform to automatically convert long-form podcasts into short-form video
+                    highlights using speech and content analysis.</li>
+                <li>Integrated WhisperX for high-accuracy transcription and Gemini API to identify viral segments based
+                    on contextual relevance.</li>
+                <li>Designed a scalable media processing pipeline leveraging AWS S3 for secure storage.</li>
+                <li>Developed a responsive creator dashboard with Next.js and Tailwind CSS.</li>
+            </ul>
+
+            <div class="project-title">House Wise - Housing Price Prediction System</div>
+            <span class="meta">Sep 2024 | Python, Scikit-Learn, Pandas</span>
+            <ul>
+                <li>Developed a Random Forest regression model to predict housing prices using structured features like
+                    location and area.</li>
+                <li>Improved model performance to R2 approx 0.85 through feature engineering and One-Hot Encoding.</li>
+                <li>Conducted exploratory data analysis to interpret real estate market trends.</li>
+            </ul>
+
+            <div class="project-title">React Task Tracker</div>
+            <span class="meta">Jul 2023 | React.js, HTML/CSS</span>
+            <ul>
+                <li>Built a responsive task management application using React hooks for state management.</li>
+                <li>Implemented persistent localStorage-based data handling and optimized UI for a smooth, mobile-first
+                    experience.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Achievements & Competitive Programming</h2>
+            <ul>
+                <li><b>Chairman's Award for Academic Excellence:</b> Awarded INR 1,00,000 by Mr. Kumar Mangalam Birla
+                    for ranking in the top 0.58% of students.</li>
+                <li><b>ICPC Asia Amritapuri Regionalist (2025):</b> Ranked 130 among 350+ onsite teams (top pool of
+                    2930+ teams).</li>
+                <li><b>Hackvento (2nd Runner-up):</b> Secured position for prototyping IETNexus, a centralized academic
+                    resource platform.</li>
+                <li><b>LeetCode Knight:</b> Peak Rating 1882.</li>
+                <li><b>Codeforces Specialist:</b> Peak Rating 1478.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Leadership & Extracurriculars</h2>
+            <ul>
+                <li><b>Overall Coordinator, GDG on Campus:</b> Led the campus technical community by organizing
+                    workshops and speaker sessions to promote peer learning.</li>
+                <li><b>Discipline Secretary, Student Council:</b> Elected representative responsible for enforcing
+                    campus regulations and coordinating institutional events.</li>
+            </ul>
+        </section>
+
+        <div style="text-align: center; margin-top: 40px; color: #777; font-size: 0.8em;">
+            &copy; 2026 Darpan Porwal. All Rights Reserved.
+        </div>
+    </div>
+
+</body>
+
+</html>

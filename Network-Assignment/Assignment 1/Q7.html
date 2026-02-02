@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Employee Registration Form</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        .header-text {
+            color: red;
+            font-size: 32px;
+            font-weight: bold;
+            vertical-align: middle;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table border="0">
+        <tr>
+            <td><img src="employee.png" alt="User Icon" height="80x"></td>
+            <td class="header-text">Employee Registration Form</td>
+        </tr>
+    </table>
+
+    <form>
+        <table border="0">
+            <tr>
+                <td></td>
+                <td>
+                    <input type="radio" name="title" value="Mr" checked> <b>Mr.</b>
+                    <input type="radio" name="title" value="Mrs"> <b>Mrs.</b>
+                    <input type="radio" name="title" value="Ms"> <b>Ms.</b>
+                </td>
+            </tr>
+            <tr>
+                <td><b>First Name</b></td>
+                <td><input type="text" name="firstname" placeholder="First Name" size="30"></td>
+            </tr>
+            <tr>
+                <td><b>Last Name</b></td>
+                <td><input type="text" name="lastname" placeholder="Last Name" size="30"></td>
+            </tr>
+            <tr>
+                <td><b>Mail Address1</b></td>
+                <td><input type="text" name="addr1" size="30"></td>
+            </tr>
+            <tr>
+                <td><b>Mail Address2</b></td>
+                <td><input type="text" name="addr2" size="30"></td>
+            </tr>
+            <tr>
+                <td><b>City</b></td>
+                <td><input type="text" name="city" size="30"></td>
+            </tr>
+            <tr>
+                <td><b>State</b></td>
+                <td>
+                    <select name="state" style="width: 200px;">
+                        <option selected>Gujarat</option>
+                        <option>Madhya Pradesh</option>
+                        <option>Maharashtra</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Zip</b></td>
+                <td><input type="text" name="zip" size="15"></td>
+            </tr>
+            <tr>
+                <td><b>Upload Photo</b></td>
+                <td>
+                    <button type="button">Browse...</button> No file selected.
+                </td>
+            </tr>
+            <tr>
+                <td><b>E-Mail</b></td>
+                <td><input type="email" name="email" size="35"></td>
+            </tr>
+            <tr>
+                <td><b>Mobile</b></td>
+                <td><input type="text" value="+91" size="3" readonly> <input type="text" name="mobile" size="20"></td>
+            </tr>
+            <tr>
+                <td valign="top"><b>Languages known</b></td>
+                <td>
+                    <input type="checkbox" name="lang" value="Gujarati" > <b>Gujarati</b><br>
+                    <input type="checkbox" name="lang" value="Hindi"> <b>Hindi</b><br>
+                    <input type="checkbox" name="lang" value="English"> <b>English</b><br>
+                    <input type="checkbox" name="lang" value="Marathi"> <b>Marathi</b>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top"><b>Additional Information</b></td>
+                <td>
+                    <textarea name="info" rows="4" cols="30" placeholder="Optional"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="submit">
+                    <input type="reset" value="reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
